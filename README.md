@@ -124,6 +124,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - your.email@example.com
+Kalzhanov Nurlykhan - nurkal022@gmail.com
 
-Project Link: https://github.com/your-username/kazakh-sign-language 
+Project Link: https://github.com/nurkal022/kazakh-sign-language 
