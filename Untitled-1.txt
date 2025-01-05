@@ -1,0 +1,101 @@
+ss: 3.7137 - learning_rate: 1.0000e-05
+Epoch 15/30
+205/205 ━━━━━━━━━━━━━━━━━━━━ 0s 655ms/step - accuracy: 0.0318 - loss: 3.7127  
+Epoch 15: ReduceLROnPlateau reducing learning rate to 9.999999747378752e-07.
+
+Epoch 15: val_accuracy did not improve from 0.02451
+205/205 ━━━━━━━━━━━━━━━━━━━━ 153s 744ms/step - accuracy: 0.0318 - loss: 3.7127 - val_accuracy: 0.0245 - val_loss: 3.7137 - learning_rate: 1.0000e-05
+Epoch 16/30
+205/205 ━━━━━━━━━━━━━━━━━━━━ 0s 658ms/step - accuracy: 0.0192 - loss: 3.7144      
+Epoch 16: val_accuracy did not improve from 0.02451
+205/205 ━━━━━━━━━━━━━━━━━━━━ 153s 744ms/step - accuracy: 0.0192 - loss: 3.7144 - val_accuracy: 0.0245 - val_loss: 3.7137 - learning_rate: 1.0000e-06
+Epoch 17/30
+205/205 ━━━━━━━━━━━━━━━━━━━━ 0s 659ms/step - accuracy: 0.0233 - loss: 3.7137      
+Epoch 17: val_accuracy did not improve from 0.02451
+205/205 ━━━━━━━━━━━━━━━━━━━━ 153s 745ms/step - accuracy: 0.0233 - loss: 3.7137 - val_accuracy: 0.0245 - val_loss: 3.7136 - learning_rate: 1.0000e-06
+Epoch 18/30
+205/205 ━━━━━━━━━━━━━━━━━━━━ 0s 654ms/step - accuracy: 0.0216 - loss: 3.7146      
+Epoch 18: val_accuracy did not improve from 0.02451
+205/205 ━━━━━━━━━━━━━━━━━━━━ 152s 739ms/step - accuracy: 0.0216 - loss: 3.7146 - val_accuracy: 0.0245 - val_loss: 3.7137 - learning_rate: 1.0000e-06
+Epoch 19/30
+205/205 ━━━━━━━━━━━━━━━━━━━━ 0s 655ms/step - accuracy: 0.0227 - loss: 3.7146      
+Epoch 19: val_accuracy did not improve from 0.02451
+205/205 ━━━━━━━━━━━━━━━━━━━━ 152s 741ms/step - accuracy: 0.0227 - loss: 3.7146 - val_accuracy: 0.0245 - val_loss: 3.7137 - learning_rate: 1.0000e-06
+Epoch 20/30
+205/205 ━━━━━━━━━━━━━━━━━━━━ 0s 655ms/step - accuracy: 0.0287 - loss: 3.7129      
+Epoch 20: val_accuracy did not improve from 0.02451
+205/205 ━━━━━━━━━━━━━━━━━━━━ 152s 741ms/step - accuracy: 0.0287 - loss: 3.7129 - val_accuracy: 0.0245 - val_loss: 3.7137 - learning_rate: 1.0000e-06
+Epoch 21/30
+205/205 ━━━━━━━━━━━━━━━━━━━━ 0s 654ms/step - accuracy: 0.0258 - loss: 3.7136      
+Epoch 21: val_accuracy did not improve from 0.02451
+205/205 ━━━━━━━━━━━━━━━━━━━━ 152s 740ms/step - accuracy: 0.0258 - loss: 3.7136 - val_accuracy: 0.0245 - val_loss: 3.7137 - learning_rate: 1.0000e-06
+Epoch 22/30
+205/205 ━━━━━━━━━━━━━━━━━━━━ 0s 653ms/step - accuracy: 0.0220 - loss: 3.7146      
+Epoch 22: ReduceLROnPlateau reducing learning rate to 1e-07.
+
+Epoch 22: val_accuracy did not improve from 0.02451
+205/205 ━━━━━━━━━━━━━━━━━━━━ 151s 738ms/step - accuracy: 0.0220 - loss: 3.7146 - val_accuracy: 0.0245 - val_loss: 3.7137 - learning_rate: 1.0000e-06
+Epoch 23/30
+205/205 ━━━━━━━━━━━━━━━━━━━━ 0s 652ms/step - accuracy: 0.0295 - loss: 3.7153      
+Epoch 23: val_accuracy did not improve from 0.02451
+205/205 ━━━━━━━━━━━━━━━━━━━━ 151s 738ms/step - accuracy: 0.0295 - loss: 3.7153 - val_accuracy: 0.0245 - val_loss: 3.7136 - learning_rate: 1.0000e-07
+Epoch 23: early stopping
+Restoring model weights from the end of the best epoch: 8.
+
+Оценка финальной модели...
+52/52 ━━━━━━━━━━━━━━━━━━━━ 18s 335ms/step - accuracy: 0.0355 - loss: 3.7133    
+Точность на проверочных данных: 2.44%
+
+Метки сохранены в Model\labels.txt
+
+Итоги обучения:
+Количество классов: 41
+Соответствие классов:
+0: A
+1: AE
+2: B
+3: CH
+4: D
+5: E
+6: E_
+7: F
+8: G
+9: GH
+10: H
+11: H_
+12: I
+13: I_
+14: K
+15: L
+16: M
+17: MS
+18: N
+19: NG
+20: O
+21: OE
+22: P
+23: Q
+24: R
+25: S
+26: SCH
+27: SH
+28: T
+29: TB
+30: TS
+31: U
+32: UE
+33: U_
+34: V
+35: Y
+36: YA
+37: YU
+38: Y_
+39: Z
+40: ZH
+
+Финальная модель сохранена в Model\kazakh_signs_efficientnet_final.keras
+
+Размер датасета:
+Обучающих примеров: 3280
+Валидационных примеров: 820
+Всего изображений: 4100
